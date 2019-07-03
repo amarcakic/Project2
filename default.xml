@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin" fetch="ssh://git@github.com/" />
+  <default revision="master" remote="origin" />
+
+  <project path="Project1/"
+           name="amarcakic/CtfCore.git" remote="origin" />
+
+  <project path="Project1/utils/component1"
+           name="amarcakic/Component1.git" remote="origin" />
+
+  <project path="Project1/utils/component2"
+           name="amarcakic/Component2.git" remote="origin" />
+             <project path="Project1/Component3"
+           name="amarcakic/Component3.git" remote="origin" 
+revision="5ab4192f7c43cc13d15c0b51ee5d053d8664bd28"/>
+
+</manifest>
